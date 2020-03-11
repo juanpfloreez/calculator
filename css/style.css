@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+        padding: 0;
+        margin: 0;
+        font-size: 1.3rem;
+        font-family: 'Source Sans Pro', sans-serif, Arial, Helvetica; 
+}
+
+.div1 {
+    border: 0px solid red;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    border: 0px solid red;
+    margin-bottom: 5rem;
+    padding-top: 0.2rem;
+    /**height: 70px;**/
+    height: 4.5rem;
+    display: flex;
+    flex-flow: no wrap;
+    border-bottom: 1px solid gray;
+    /**justify-content: space-between;**/
+   
+}
+
+.divleftheader {
+    border: 0px solid purple;
+    width: 150px;
+    
+    
+}
+
+.divleftheader img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    padding-top: .8rem;
+    margin-left: 8rem;
+    
+}
+
+.divrightheader {
+    border: 0px solid black;
+    margin-left: 12rem;
+   
+    
+}
+
+.divrightheader nav {
+    border: 0px solid blue;
+    margin-top: 1.2rem;
+    
+}
+
+.divrightheader ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: -0.3rem;
+}
+
+.divrightheader li {
+    display: inline-block;
+}
+
+.divrightheader a {
+    text-decoration: none;
+    color: gray;
+    border: 0px solid red;
+    margin-left: 2rem;
+}
+
+.wrapper {
+    width: 400px;
+    border: 2px solid red;
+    margin-top: 10rem;
+    margin-left: 28rem;
+    
+}
+
+.calc-buttons-rows {
+    border: 2px solid red;
+    padding: 2rem;
+    margin: 2rem;
+   
+}
+
+
+footer{
+    border: 0px solid red;
+    margin-top: 5rem;
+    border-top: 1px solid grey;
+}
+
+.divfooter {
+    border: 0px solid black;
+    padding: 2rem;
+}
